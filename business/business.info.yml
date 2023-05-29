@@ -1,0 +1,9 @@
+name: Business
+type: theme
+description: Business Theme
+base theme: false
+core: 8.x
+core_version_requirement: ^8 || ^9
+libraries:
+  - business/global-styling
+  - business/global-scripts

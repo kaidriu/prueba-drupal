@@ -1,0 +1,89 @@
+{# Archivo: page--front.html.twig #}
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ head_title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="{{ path('<front>') }}">Furniture</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#inicio">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#catalogo">Catalogo</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container" id="inicio">
+    <div class="row">
+    <div class="col-md-12">
+      <div class="row">
+       <div class="col-md-12 text-center">
+            <img src="https://img.freepik.com/vector-gratis/logotipo-muebles_23-2148613625.jpg?w=360" alt="Imagen de muebles" class="img-fluid">
+          </div>
+      <div class="col-md-12">
+      </div>
+    </div>
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="text-center mb-5">Bienvenidos a Furniture</h1>
+            <p>En Furniture, nos apasiona transformar tus espacios en auténticas obras de arte. Somos una tienda de muebles especializada en ofrecerte la mejor selección de piezas únicas y sofisticadas que elevarán el estilo y la funcionalidad de tu hogar.
+            Nuestro compromiso es brindarte una experiencia de compra excepcional, donde descubrirás muebles de calidad con diseños vanguardistas y elegantes. Desde elegantes sofás y mesas de centro hasta impresionantes armarios y estanterías, cada elemento ha sido cuidadosamente seleccionado para reflejar tus gustos y crear ambientes acogedores.
+            En Furniture, nos enorgullece trabajar con artesanos y fabricantes que comparten nuestra pasión por la excelencia. Cada pieza que ofrecemos ha sido elaborada con materiales de primera calidad y un meticuloso detalle artesanal, para garantizar que obtengas muebles duraderos y de alta calidad.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <p>Nuestro equipo de expertos en diseño de interiores está siempre dispuesto a asesorarte y ayudarte a encontrar las opciones más adecuadas para tu espacio. Ya sea que estés buscando transformar tu sala de estar, renovar tu dormitorio o crear un comedor impresionante, estamos aquí para convertir tus sueños en realidad.</p>
+            <p>En Furniture, no solo nos preocupamos por ofrecerte muebles excepcionales, sino también por brindarte un servicio al cliente excepcional. Valoramos tu satisfacción y haremos todo lo posible para superar tus expectativas en cada interacción.</p>
+            <p>Te invitamos a explorar nuestro catálogo en línea o visitar nuestra tienda física para descubrir la amplia gama de opciones que tenemos para ti. ¡Ven y déjate inspirar por la belleza y la funcionalidad de nuestros muebles en Furniture!</p>
+            <p>Tu hogar merece lo mejor, y en Furniture te lo proporcionamos. ¡Ven y crea un espacio que refleje tu estilo único y personalidad con nuestra exclusiva colección de muebles!</p>
+            <p>Bienvenidos a Furniture, donde el arte y la funcionalidad se encuentran en perfecta armonía.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5" id="catalogo">
+    <h2 class="text-center">Catálogo de Muebles</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <img src="https://t1.uc.ltmcdn.com/es/posts/4/2/2/como_restaurar_un_mueble_15224_600.webp" alt="Mueble 1" class="img-fluid">
+      </div>
+      <div class="col-md-4 mb-4">
+        <img src="https://t1.uc.ltmcdn.com/es/posts/4/2/2/como_restaurar_un_mueble_15224_600.webp" alt="Mueble 2" class="img-fluid">
+      </div>
+      <div class="col-md-4 mb-4">
+        <img src="https://t1.uc.ltmcdn.com/es/posts/4/2/2/como_restaurar_un_mueble_15224_600.webp" alt="Mueble 3" class="img-fluid">
+      </div>
+      <div class="col-md-4 mb-4">
+        <img src="https://t1.uc.ltmcdn.com/es/posts/4/2/2/como_restaurar_un_mueble_15224_600.webp" alt="Mueble 4" class="img-fluid">
+      </div>
+      <div class="col-md-4 mb-4">
+        <img src="https://t1.uc.ltmcdn.com/es/posts/4/2/2/como_restaurar_un_mueble_15224_600.webp" alt="Mueble 5" class="img-fluid">
+      </div>
+      <div class="col-md-4 mb-4">
+        <img src="https://t1.uc.ltmcdn.com/es/posts/4/2/2/como_restaurar_un_mueble_15224_600.webp" alt="Mueble 6" class="img-fluid">
+      </div>
+    </div>
+  </div>
+
+  {{ page_bottom }}
+</body>
+</html>
